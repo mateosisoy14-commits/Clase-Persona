@@ -6,11 +6,7 @@ public class Persona{
 
 
     public Persona (){
-
-        this.nombre = "Sin nombre";
-        this.apellido = "Sin apellido pa";
-        this.edad = 11;
-
+         this("Nada" , "Nada", 0);
     }
 
     public Persona (String nombre, String apellido, int edad){
